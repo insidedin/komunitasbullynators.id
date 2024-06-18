@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Plus+Jakarta+Sans:wght@600&family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --primary-color: #FDECDA;
+    --text-color: #4F2620;
+    --text-color2: #EFC2A1;
+    --text-color3: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/*navbar*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .btn-outline-secondary {
+    border: 1px solid var(--text-color);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 16px;
+    margin-left: 10px;
+    background-color: var(--text-color);
+    transition-duration: 3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--text-color2);
+    border-color: var(--text-color2);
+    color: var(--text-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.nav-link {
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--text-color2);
+}
+
+
+/* features */
+.features .text-center{
+    color: var(--text-color);
+}
+
+.features .text-center h4{
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.features .text-center p{
+    font-size: 14px;
+    color: #333;
+}
+
+.features .fa-3x {
+    color: var(--text-color);
+}
+
+/*footer*/
+.footer-section {
+    padding: auto;
+    background-color: var(--text-color3);
+    color: var(--text-color);
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.social-icons a {
+    color: #333; /* Warna default ikon */
+    font-size: 36px; /* Ukuran ikon */
+    margin-right: 15px; /* Jarak antar ikon */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: color 0.3s; /* Animasi halus untuk perubahan warna */
+}
+
+.social-icons a:hover {
+    color: #ff6600; /* Warna saat ikon di-hover */
+}
+
+.social-icons a.instagram {
+    color: var(--text-color);
+}
+
+.social-icons a.linkedin {
+    color: var(--text-color);
+}
